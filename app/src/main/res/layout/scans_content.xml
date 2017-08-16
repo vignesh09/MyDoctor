@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4" >
+
+
+    <RelativeLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/ultrason"
+        android:clickable="true"
+        android:scaleType="center" />
+    <TextView
+        android:id="@+id/textviewgynaecology"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/thumbnail"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:shadowColor="@color/cardview_background"
+        android:paddingLeft="@dimen/album_title_padding"
+        android:paddingRight="@dimen/album_title_padding"
+        android:paddingTop="@dimen/album_title_padding"
+        android:text="GYNAECOLOGY ULTRASOUND SCANS"
+        android:textColor="@color/colorPrimaryDark"
+        />
+</RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

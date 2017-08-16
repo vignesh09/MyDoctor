@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_below="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/appimage"
+                    android:clickable="true"
+                    android:scaleType="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/row1"
+                    android:layout_height="0dp"
+                    android:layout_below="@+id/thumbnail"/>
+                <TextView
+                    android:id="@+id/textviewgynaecology"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/row1"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:shadowColor="@color/cardview_background"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="Gynacology | Obstertrics"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/row2"
+                    android:layout_height="0dp"
+                    android:layout_below="@+id/textviewgynaecology"/>
+
+
+                <TextView
+                    android:id="@+id/textviewDoctors"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/row2"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="Doctors"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/row3"
+                    android:layout_height="0dp"
+                    android:layout_below="@+id/textviewDoctors"/>
+
+                <TextView
+                    android:id="@+id/textviewScan"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/row3"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="Scans"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/row4"
+                    android:layout_height="0dp"
+                    android:layout_below="@+id/textviewScan"/>
+
+                <TextView
+                    android:id="@+id/textviewGetDirection"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/row4"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="Get &#10;Direction"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="35dp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

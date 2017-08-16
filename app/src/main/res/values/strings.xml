@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyDoctor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="gynacology">Most gynaecological scanning will be performed using a transvaginal probe. This will provide detailed images of the pelvic organs, i.e. cervix, uterus, endometrium and ovaries. Examination of the bladder and kidneys can also be performed, in conjunction with pelvic scan.</string>
+</resources>
